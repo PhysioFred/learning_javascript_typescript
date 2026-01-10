@@ -6,11 +6,14 @@ more than one line
 */
 
 //object: string, num, key-value pair {key:, value:};
+//const is immutable value
+// var/let is mutable value
 //refernces: variable = variable
 //copy objects: variable = object.assign({}, animal);
 //copy objects: {...animal}; ... is the spread/rest operator
 //copy objects: JSON.parse(JSON.stringify(variable));
 //copy objects: Object.assign({}, animal); //shallow copy
+
 
 //copy objects: Object.create(animal); //creates a new object with the prototype of animal
 //copy objects: Object.keys(animal); //returns an array of keys
@@ -38,4 +41,13 @@ more than one line
 
 
 //regular expression/regex
+var regex = /this/; 
+var regex = /this/i; //i = case insensitive
+var regex = /^this/i; 
+var regex = /this$/i; //matches the last word
+var regex = /^this$/i; 
+var regex = /ever.$/i; 
+var regex = /ever\.$/i; //escape the dot
+
+
 
